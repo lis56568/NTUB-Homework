@@ -1,0 +1,269 @@
+body {
+    background-color: black;
+
+}
+
+.header {
+    border-bottom: 8px solid #222;
+    margin-bottom: 100px;
+
+}
+
+/*電影背景*/
+.movieArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-image: url(../image/MOVIE.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 619px;
+    color: white;
+}
+
+/*電影背景字串*/
+.word-1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.word-2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.word-3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/*訂閱方案*/
+.solutions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.solutionArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 620px;
+    margin-top: 10px;
+}
+
+p {
+    position: relative;
+    top: 150px;
+    left: 30px;
+    font-size: 25px;
+}
+
+span {
+    font-size: 50px;
+    color: rgb(255, 89, 0);
+}
+
+.solution-1 {
+    display: inline-block;
+    border-radius: 15px;
+    width: 350px;
+    height: 600px;
+    margin: 0px 60px 0px 60px;
+    background-image: url(../image/sherlock-1.jpg);
+    background-repeat: no-repeat;
+    color: rgb(223, 219, 219);
+}
+
+.solution-1:hover {
+    background-image: url(../image/hover-sherlock.jpg);
+    color: white;
+}
+
+.solution-2 {
+    display: inline-block;
+    /* border: 4px solid rgb(67, 1, 1); */
+    border-radius: 15px;
+    width: 350px;
+    height: 600px;
+    margin: 0px 60px 0px 60px;
+    background-image: url(../image/about-time.jpg);
+    background-repeat: no-repeat;
+    color: rgb(223, 219, 219);
+}
+
+.solution-2:hover {
+    background-image: url(../image/hover-about-time.jpg);
+    color: white;
+}
+
+.solution-3 {
+    display: inline-block;
+    /* border: 4px solid rgb(67, 1, 1); */
+    border-radius: 15px;
+    width: 350px;
+    height: 600px;
+    margin: 0px 60px 0px 60px;
+    background-image: url(../image/Avatar-3.jpg);
+    background-repeat: no-repeat;
+    color: rgb(223, 219, 219);
+}
+
+.solution-3:hover {
+    background-image: url(../image/hover-Avatar.jpg);
+    color: white;
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.levelArea {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.levelWord-1 {
+    color: white;
+    font-size: 20px;
+}
+
+.levelWord-2 {
+    color: white;
+    font-size: 20px;
+}
+
+.levelWord-3 {
+    color: white;
+    font-size: 20px;
+}
+
+.level-1 {
+    display: inline-block;
+    /* border: 1px solid rgb(251, 248, 248); */
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    margin: 0px 60px 0px 60px;
+    background-color: rgb(198, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level-2 {
+    display: inline-block;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    margin: 0px 60px 0px 60px;
+    background-color: rgb(198, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level-3 {
+    display: inline-block;
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    margin: 0px 60px 0px 60px;
+    background-color: rgb(198, 5, 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+    border-bottom: 8px solid #222;
+    width: 100%;
+    height: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    width: 99%;
+    height: 1px;
+    margin-top: 50px;
+}
+
+/*外部連結*/
+.otherLink {
+    float: left;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+h2 {
+    float: left;
+    position: 40px;
+    color: white;
+    font-size: 20px
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 20px;
+    position: relative;
+    left: 40px;
+}
+
+/*合作商家廣告投放*/
+.businessPartner {
+    float: right;
+    width: 70%;
+    height: 180px;
+    margin: 10px 0px 10px 50px;
+    background-color: black;
+}
+
+.AD-1 {
+    float: left;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+.AD-2 {
+    display: inline;
+    margin-right: 50px;
+}
+
+.AD-3 {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.AD1 {
+    border: 2px solid rgb(71, 70, 70);
+}
+
+.AD2 {
+    border: 2px solid rgb(71, 70, 70);
+}
+
+.AD3 {
+    border: 2px solid rgb(71, 70, 70);
+}
